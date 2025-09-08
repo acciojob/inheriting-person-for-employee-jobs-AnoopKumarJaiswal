@@ -1,4 +1,34 @@
 // complete this js code
+
+
+class Person{
+	constructor(n ,a)
+	{
+		this.name = n
+		this.age = a
+	}
+
+
+	greet()
+	{
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old`)
+	}
+}
+
+
+class Employee extends Person{
+	constructor( n, a,jt)
+	{
+		super(n ,a)
+		this.jobTitle = jt
+	}
+
+
+	jobGreet()
+	{
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`)
+	}
+}
 function Person(name, age) {}
 
 function Employee(name, age, jobTitle) {}
