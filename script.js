@@ -10,7 +10,7 @@ Person.prototype.greet = function  () {
 
 function Employee(name, age, jobTitle)
 	{
-		super(name ,age)
+		Person.call(this,name ,age)
 		this.jobTitle = jobTitle
 	}
 
