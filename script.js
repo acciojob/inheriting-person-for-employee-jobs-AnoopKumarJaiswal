@@ -4,8 +4,8 @@ function Person(name, age)
 	this.age = age
 }
 
-Person.pototype.greet = function  () => {
-	console.lo(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
+Person.pototype.greet = function  () {
+	console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
 }
 
 function Employee(name, age, jobTitle)
@@ -14,7 +14,7 @@ function Employee(name, age, jobTitle)
 		this.jobTitle = jobTitle
 	}
 
-Employee.prototype.jobGreet =  function () =>
+Employee.prototype.jobGreet =  function () 
 	{
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and job title is ${this.jobTitle}`)
 	}
